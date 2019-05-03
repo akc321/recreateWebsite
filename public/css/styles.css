@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: lightgray;
+}
+
+
+.box4 a:hover{
+    background-color: lightgray;
+}
+
+
+body {
+    background-color: #99a73a;
+    
+    margin: 0;
+    font-family: Museo,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+   
+    color: #212121;
+   
+    
+}
+
+.topBox {
+    height:100px;
+}
+
+.topBox.innerBox{
+    padding:40px 0 20px 0;
+    height:50px;
+}
+
+.middleBox{
+    
+
+    height:50px;
+    width:60vw;
+    margin: 0 auto;
+    position:relative;
+    top:3px;
+}
+
+.middleBox *{
+
+    top:5px;
+    color:white;
+}
+
+.innerBox.middleBox img{
+    height:100px;
+    width:auto;
+    position:relative;
+    right:150px;
+    top:-25px;
+    
+    
+}
+
+.grey{
+    
+    color:#a5b157;
+}
+
+.grey a:hover {
+    color:white;
+}
+
+.divBox {
+    position:absolute;
+ 
+    width:300px;
+    left:0;
+    height:40px;
+    
+}
+
+.divBoxIcons {
+    position:absolute;
+  
+    width:300px;
+    height:40px;
+    right:10%;
+    
+}
+
+.divBoxMenu {
+    position:absolute;
+
+    width:10%;
+    right:0;
+    height:40px;
+    
+}
+.divBoxMenu a {
+    position:absolute;
+
+    
+    right:0;
+    
+}
+
+
+.innerBox.middleBox *{
+    float:left;
+    padding:5px;
+}
+
+.topBody{
+    height:500px;
+}
+
+
+.bigText{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: center; /*centers items on the cross-axis (y by default)*/
+  }
+
+
+.bigText h1{
+font-size: 600px;
+color:#a5b157;
+}
+
+.smallText{
+    
+    font-size: 20px;
+    color:white;
+    z-index: 100;
+    overflow: hidden;
+    position: absolute;
+   
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}
+
+.plane{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: center; 
+}
+  
+.planeShadow{
+    width:250px;
+    height:250px;
+    z-index: 50;
+    
+    margin-right: 100px;
+    margin-top:100px;
+}
+
+.planeMain{
+   width:250px;
+   height:250px;
+   z-index: 100;
+   position: absolute;
+}
+
+.textUnderPlane{
+    position:absolute;
+    font-size:30px;
+    z-index: 500;
+    margin-top:150px;
+    color: white;
+    font-weight:300;
+    
+}
+
+.textUnderPlane a{
+    
+    border-bottom: 1px solid currentColor;
+    border-color: #fcffea;
+    display: inline-block;
+    line-height: 40px;
+    
+   
+}
+
+.aLeft{
+    position: absolute;
+    left:-190px;
+    color: white;
+    
+      
+}
+
+
+
+.aRight{
+    position: absolute;
+    left:70px;
+    color: white;
+}
+
+.midBody{
+    width:60vw;
+    height:50vw;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.box3 {
+    float:left;
+    width:20vw;
+    height:20vw;
+    line-height: 25px;
+   
+    
+    display:flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: left; 
+    flex-direction: column;
+    padding:20px;
+    
+}
+
+.box3 h3{
+    color: #5f5f5f;
+}
+
+.box4 {
+    float:left;
+    width:15vw;
+    height:15vw;
+    background-color: white;
+    border-right:1px #99a73a solid;
+    border-bottom:1px #99a73a solid;
+    display:flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: center; 
+    flex-direction: column;
+    
+}
+
+.box4Bottom {
+    float:left;
+    width:15vw;
+    height:15vw;
+    color:white;
+    display:flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: left; 
+    flex-direction: column;
+    line-height: 25px;
+    padding: 25px;
+    
+}
+.box4BottomRight {
+    float:left;
+    width:15vw;
+    height:15vw;
+    color:white;
+    display:flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: right; 
+    flex-direction: column;
+    line-height: 25px;
+    padding: 25px;
+    
+}
+
+.box4Green {
+    float:left;
+    width:15vw;
+    height:15vw;
+    background-color: #99a73a;
+    border-right:1px #99a73a solid;
+    border-bottom:1px #99a73a solid;
+    display:flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: center; 
+    flex-direction: column;
+    
+}
+
+.box4 h1{
+    font-size: 15px;
+    color:#313131;
+}
+
+.theSVG{
+clear: both;
+z-index: 1000;
+fill:rgb(153, 167, 58);
+height:100px;
+stroke:rgb(153, 167, 58);
+}
+
+.bottomBody{
+    width:100%;
+    height:20vw;
+    background-color: #f5f5f5;
+}
+
+
+.footer{
+    width:100%;
+    height:20vw;
+    background-color: #313131;
+}
+
+.mid{
+    width:60vw;
+    height:20vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.bH1{
+    margin: 0 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
